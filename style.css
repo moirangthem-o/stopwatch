@@ -38,8 +38,8 @@ body {
   height: 100px;
 }
 
-.btn{
-    text-align: center;
+.btn {
+  text-align: center;
 }
 
 button {
@@ -55,4 +55,16 @@ button {
 button:hover {
   background-color: rgb(20, 163, 220);
   color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .displayContainer {
+    width: 90%;
+    margin: auto;
+    font-size: 22px;
+  }
+  button {
+    max-width: 30%;
+    font-size: 16px;
+  }
 }
